@@ -8,7 +8,7 @@ android {
     compileSdk = 32
 
     defaultConfig {
-        applicationId = "com.example.gallery"
+        applicationId = "app.grapheneos.gallery"
         minSdk = 29
         targetSdk = 32
         versionCode = 1

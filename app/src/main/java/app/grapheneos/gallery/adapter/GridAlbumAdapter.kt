@@ -1,4 +1,4 @@
-package com.example.gallery.adapter
+package app.grapheneos.gallery.adapter
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -8,12 +8,12 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.signature.MediaStoreSignature
-import com.example.gallery.Album
-import com.example.gallery.GlideApp
-import com.example.gallery.R
-import com.example.gallery.databinding.AlbumHolderBinding
-import com.example.gallery.ui.BottomNavFrag
-import com.example.gallery.ui.MainActivity
+import app.grapheneos.gallery.Album
+import app.grapheneos.gallery.GlideApp
+import app.grapheneos.gallery.R
+import app.grapheneos.gallery.databinding.AlbumHolderBinding
+import app.grapheneos.gallery.ui.BottomNavFrag
+import app.grapheneos.gallery.ui.MainActivity
 import com.google.android.material.navigation.NavigationBarView
 
 class GridAlbumAdapter(private val frag: BottomNavFrag) : ListAdapter<Album,

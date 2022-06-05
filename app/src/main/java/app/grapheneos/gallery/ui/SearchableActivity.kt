@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package app.grapheneos.gallery.ui
 
 import android.app.SearchManager
 import android.content.Intent
@@ -12,8 +12,8 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
-import com.example.gallery.MySuggestionProvider
-import com.example.gallery.databinding.ActivitySearchableBinding
+import app.grapheneos.gallery.MySuggestionProvider
+import app.grapheneos.gallery.databinding.ActivitySearchableBinding
 import java.text.SimpleDateFormat
 import java.util.*
 

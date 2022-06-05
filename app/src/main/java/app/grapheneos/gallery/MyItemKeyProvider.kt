@@ -1,9 +1,9 @@
-package com.example.gallery
+package app.grapheneos.gallery
 
 import androidx.recyclerview.selection.ItemKeyProvider
 import androidx.recyclerview.widget.RecyclerView
-import com.example.gallery.ui.MainActivity
-import com.example.gallery.ui.MainViewModel
+import app.grapheneos.gallery.ui.MainActivity
+import app.grapheneos.gallery.ui.MainViewModel
 
 class MyItemKeyProvider(
     private val viewModel: MainViewModel,

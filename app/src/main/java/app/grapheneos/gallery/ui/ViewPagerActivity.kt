@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package app.grapheneos.gallery.ui
 
 import android.Manifest
 import android.content.Intent
@@ -11,8 +11,8 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.view.WindowCompat
-import com.example.gallery.ListItem
-import com.example.gallery.databinding.ActivityViewPagerBinding
+import app.grapheneos.gallery.ListItem
+import app.grapheneos.gallery.databinding.ActivityViewPagerBinding
 import com.google.android.material.snackbar.Snackbar
 
 class ViewPagerActivity : AppCompatActivity() {

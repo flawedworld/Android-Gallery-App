@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package app.grapheneos.gallery.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.core.view.isVisible
 import androidx.transition.TransitionManager
-import com.example.gallery.databinding.ActivityVideoPlayerBinding
+import app.grapheneos.gallery.databinding.ActivityVideoPlayerBinding
 import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.MediaItem
 import com.google.android.exoplayer2.util.Util

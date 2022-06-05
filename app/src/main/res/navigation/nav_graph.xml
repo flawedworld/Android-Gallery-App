@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/bottomNavFrag"
-        android:name="com.example.gallery.ui.BottomNavFrag"
+        android:name="app.grapheneos.gallery.ui.BottomNavFrag"
         android:label="fragment_bottom_nav"
         tools:layout="@layout/fragment_bottom_nav" >
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/viewPagerFrag"
-        android:name="com.example.gallery.ui.ViewPagerFrag"
+        android:name="app.grapheneos.gallery.ui.ViewPagerFrag"
         android:label="fragment_view_pager"
         tools:layout="@layout/fragment_view_pager">
         <argument
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/albumFrag"
-        android:name="com.example.gallery.ui.AlbumFrag"
+        android:name="app.grapheneos.gallery.ui.AlbumFrag"
         android:label="fragment_album_detail"
         tools:layout="@layout/fragment_album" >
         <action
@@ -46,7 +46,7 @@
     </fragment>
     <fragment
         android:id="@+id/binFrag"
-        android:name="com.example.gallery.ui.BinFrag"
+        android:name="app.grapheneos.gallery.ui.BinFrag"
         android:label="fragment_bin"
         tools:layout="@layout/fragment_bin" />
 </navigation>

@@ -1,9 +1,9 @@
-package com.example.gallery
+package app.grapheneos.gallery
 
 import android.view.MotionEvent
 import androidx.recyclerview.selection.ItemDetailsLookup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.gallery.adapter.GridItemAdapter
+import app.grapheneos.gallery.adapter.GridItemAdapter
 
 class MyItemDetailsLookup(private val recyclerView: RecyclerView) :
     ItemDetailsLookup<Long>() {

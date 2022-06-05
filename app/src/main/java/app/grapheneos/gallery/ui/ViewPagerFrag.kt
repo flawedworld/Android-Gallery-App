@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package app.grapheneos.gallery.ui
 
 import android.app.Activity
 import android.content.Intent
@@ -18,13 +18,13 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.transition.TransitionManager
 import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
-import com.example.gallery.ListItem
-import com.example.gallery.R
-import com.example.gallery.adapter.ViewHolderPager
-import com.example.gallery.adapter.ViewPagerAdapter
-import com.example.gallery.databinding.EditTextBinding
-import com.example.gallery.databinding.FragmentViewPagerBinding
-import com.example.gallery.databinding.ViewDialogInfoBinding
+import app.grapheneos.gallery.ListItem
+import app.grapheneos.gallery.R
+import app.grapheneos.gallery.adapter.ViewHolderPager
+import app.grapheneos.gallery.adapter.ViewPagerAdapter
+import app.grapheneos.gallery.databinding.EditTextBinding
+import app.grapheneos.gallery.databinding.FragmentViewPagerBinding
+import app.grapheneos.gallery.databinding.ViewDialogInfoBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.transition.MaterialContainerTransform
 import com.google.android.material.transition.MaterialFade

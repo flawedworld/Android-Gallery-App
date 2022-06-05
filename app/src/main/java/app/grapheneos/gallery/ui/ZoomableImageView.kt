@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package app.grapheneos.gallery.ui
 
 import android.content.Context
 import android.graphics.Matrix
@@ -9,7 +9,7 @@ import android.view.MotionEvent
 import android.view.ScaleGestureDetector
 import android.view.ScaleGestureDetector.SimpleOnScaleGestureListener
 import androidx.appcompat.widget.AppCompatImageView
-import com.example.gallery.R
+import app.grapheneos.gallery.R
 import kotlin.math.abs
 
 class ZoomableImageView @JvmOverloads constructor(

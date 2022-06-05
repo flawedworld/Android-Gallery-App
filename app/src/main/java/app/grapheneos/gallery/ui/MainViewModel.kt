@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package app.grapheneos.gallery.ui
 
 import android.app.Application
 import android.app.RecoverableSecurityException
@@ -15,8 +15,8 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.example.gallery.Album
-import com.example.gallery.ListItem
+import app.grapheneos.gallery.Album
+import app.grapheneos.gallery.ListItem
 import kotlinx.coroutines.*
 import java.util.*
 

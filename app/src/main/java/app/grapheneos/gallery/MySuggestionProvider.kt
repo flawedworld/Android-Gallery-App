@@ -1,4 +1,4 @@
-package com.example.gallery
+package app.grapheneos.gallery
 
 import android.content.SearchRecentSuggestionsProvider
 
@@ -8,7 +8,7 @@ class MySuggestionProvider : SearchRecentSuggestionsProvider() {
     }
 
     companion object {
-        const val AUTHORITY = "com.example.gallery.MySuggestionProvider"
+        const val AUTHORITY = "app.grapheneos.gallery.MySuggestionProvider"
         const val MODE: Int = DATABASE_MODE_QUERIES
     }
 }

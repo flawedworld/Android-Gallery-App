@@ -4,7 +4,7 @@
     android:id="@+id/fcvViewPager"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:name="com.example.gallery.ui.ViewPagerFrag"
+    android:name="app.grapheneos.gallery.ui.ViewPagerFrag"
     tools:layout="@layout/fragment_view_pager">
 
 </androidx.fragment.app.FragmentContainerView>

@@ -1,4 +1,4 @@
-package com.example.gallery.adapter
+package app.grapheneos.gallery.adapter
 
 import android.app.Activity
 import android.app.SearchManager
@@ -24,14 +24,14 @@ import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
 import com.bumptech.glide.signature.MediaStoreSignature
-import com.example.gallery.GlideApp
-import com.example.gallery.ListItem
-import com.example.gallery.R
-import com.example.gallery.databinding.LayoutSearchBinding
-import com.example.gallery.databinding.ListGridHeaderBinding
-import com.example.gallery.databinding.ListGridMediaItemHolderBinding
-import com.example.gallery.ui.BinFrag
-import com.example.gallery.ui.MainActivity
+import app.grapheneos.gallery.GlideApp
+import app.grapheneos.gallery.ListItem
+import app.grapheneos.gallery.R
+import app.grapheneos.gallery.databinding.LayoutSearchBinding
+import app.grapheneos.gallery.databinding.ListGridHeaderBinding
+import app.grapheneos.gallery.databinding.ListGridMediaItemHolderBinding
+import app.grapheneos.gallery.ui.BinFrag
+import app.grapheneos.gallery.ui.MainActivity
 import com.google.android.material.datepicker.MaterialDatePicker
 import com.google.android.material.shape.ShapeAppearanceModel
 import java.text.SimpleDateFormat

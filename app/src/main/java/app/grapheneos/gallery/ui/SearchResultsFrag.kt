@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package app.grapheneos.gallery.ui
 
 import android.app.SearchManager
 import android.content.Context
@@ -17,9 +17,9 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.selection.SelectionTracker
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.gallery.R
-import com.example.gallery.adapter.GridItemAdapter
-import com.example.gallery.databinding.FragmentSearchResultsBinding
+import app.grapheneos.gallery.R
+import app.grapheneos.gallery.adapter.GridItemAdapter
+import app.grapheneos.gallery.databinding.FragmentSearchResultsBinding
 import com.google.android.material.datepicker.MaterialDatePicker
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.transition.Hold

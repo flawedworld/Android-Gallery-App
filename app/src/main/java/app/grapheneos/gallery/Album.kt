@@ -1,4 +1,4 @@
-package com.example.gallery
+package app.grapheneos.gallery
 
 import androidx.recyclerview.widget.DiffUtil
 

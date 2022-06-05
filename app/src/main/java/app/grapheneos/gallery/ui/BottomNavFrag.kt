@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package app.grapheneos.gallery.ui
 
 import android.app.Activity
 import android.app.SearchManager
@@ -21,13 +21,13 @@ import androidx.recyclerview.selection.SelectionTracker
 import androidx.recyclerview.selection.StorageStrategy
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.transition.TransitionManager
-import com.example.gallery.ListItem
-import com.example.gallery.MyItemDetailsLookup
-import com.example.gallery.MyItemKeyProvider
-import com.example.gallery.R
-import com.example.gallery.adapter.GridAlbumAdapter
-import com.example.gallery.adapter.GridItemAdapter
-import com.example.gallery.databinding.FragmentBottomNavBinding
+import app.grapheneos.gallery.ListItem
+import app.grapheneos.gallery.MyItemDetailsLookup
+import app.grapheneos.gallery.MyItemKeyProvider
+import app.grapheneos.gallery.R
+import app.grapheneos.gallery.adapter.GridAlbumAdapter
+import app.grapheneos.gallery.adapter.GridItemAdapter
+import app.grapheneos.gallery.databinding.FragmentBottomNavBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.elevation.SurfaceColors
 import com.google.android.material.navigation.NavigationBarView

@@ -1,4 +1,4 @@
-package com.example.gallery.ui
+package app.grapheneos.gallery.ui
 
 import android.os.Build
 import android.os.Bundle
@@ -12,9 +12,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.gallery.ListItem
-import com.example.gallery.adapter.GridItemAdapter
-import com.example.gallery.databinding.FragmentBinBinding
+import app.grapheneos.gallery.ListItem
+import app.grapheneos.gallery.adapter.GridItemAdapter
+import app.grapheneos.gallery.databinding.FragmentBinBinding
 import com.google.android.material.transition.MaterialSharedAxis
 
 class BinFrag : Fragment() {

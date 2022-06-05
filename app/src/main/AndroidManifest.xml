@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gallery"
+    package="app.grapheneos.gallery"
     android:installLocation="auto">
 
     <uses-permission
@@ -150,7 +150,7 @@
 
         <provider
             android:name=".MySuggestionProvider"
-            android:authorities="com.example.gallery.MySuggestionProvider"
+            android:authorities="app.grapheneos.gallery.MySuggestionProvider"
             android:exported="false" />
     </application>
 

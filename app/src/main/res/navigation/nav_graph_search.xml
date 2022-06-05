@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/searchResultsFrag"
-        android:name="com.example.gallery.ui.SearchResultsFrag"
+        android:name="app.grapheneos.gallery.ui.SearchResultsFrag"
         android:label="SearchResultsFrag" >
         <action
             android:id="@+id/action_searchResultsFrag_to_viewPagerFrag2"
@@ -14,7 +14,7 @@
     </fragment>
     <fragment
         android:id="@+id/viewPagerFrag2"
-        android:name="com.example.gallery.ui.ViewPagerFrag"
+        android:name="app.grapheneos.gallery.ui.ViewPagerFrag"
         android:label="ViewPagerFrag" >
         <argument
             android:name="isAlbum"
