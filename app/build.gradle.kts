@@ -63,7 +63,7 @@ dependencies {
     androidTestImplementation("androidx.navigation:navigation-testing:2.4.2")
 
     // Glide
-    implementation("com.github.bumptech.glide:glide:4.13.2")
+    implementation("com.github.bumptech.glide:glide:4.14.0")
     kapt("com.github.bumptech.glide:compiler:4.13.2")
 
     // ExoPlayer
